@@ -43,7 +43,7 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-
+        $('h1').append('Text added');
         console.log('Received Event: ' + id);
     }
 };
